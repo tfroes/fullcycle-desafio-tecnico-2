@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  appstress:
+    build:
+      dockerfile: Dockerfile
+      context: .
+
